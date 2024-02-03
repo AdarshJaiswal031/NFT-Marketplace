@@ -1,0 +1,52 @@
+{
+    "confirmed": false,
+    "chainId": "0x1",
+    "abi": [
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "reserve0",
+                    "type": "uint112"
+                },
+                {
+                    "indexed": false,
+                    "name": "reserve1",
+                    "type": "uint112"
+                }
+            ],
+            "name": "Sync",
+            "type": "event"
+        }
+    ],
+    "streamId": "6378fe38-54c7-4816-8d61-fca8e128e260",
+    "tag": "test_events",
+    "retries": 1,
+    "block": {
+        "number": "15984246",
+        "hash": "0x7f8d8285b572a60f6a14d5f1dcbd40e487ccffd9ec78f8dfbccb49aa191fbb95",
+        "timestamp": "1668621827"
+    },
+    "logs": [
+        {
+            "logIndex": "320",
+            "transactionHash": "0xf1682fa49b83689093b467ac6937785102895fc3ba418624c28d04f9af6e5e2b",
+            "address": "0x4cd36d6f32586177e36179a810595a33163a20bf",
+            "data": "0x00000000000000000000000000000000000000000000944ad388817e590ab6070000000000000000000000000000000000000000000000000000008a602de18e",
+            "topic0": "0x1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1",
+            "topic1": null,
+            "topic2": null,
+            "topic3": null
+        }
+    ],
+    "txs": [],
+    "txsInternal": [],
+    "erc20Transfers": [],
+    "erc20Approvals": [],
+    "nftApprovals": {
+        "ERC1155": [],
+        "ERC721": []
+    },
+    "nftTransfers": []
+}
